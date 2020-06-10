@@ -10,13 +10,15 @@
         {
             "name": "Ayk Borstelmann",
             "email": "borstelmann.ayk@gmail.com",
-            "maintainer": "true"
+            "maintainer": true
         }
     ],
-    "dependencies": {
-        "name": "painlessMesh",
-        "framework": "arduino"
-    },
+    "dependencies": [
+        {
+            "name": "painlessMesh",
+            "framework": "arduino"
+        }
+    ],
     "framework": "arduino",
     "version": "0.1.0",
     "platforms": "espressif8266, espressif32"
