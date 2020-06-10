@@ -1,0 +1,23 @@
+{
+	"name":"MQTT mesh client",
+	"keywords": "mesh, painlessMesh, mqtt, bridge",
+	"description": "MQTT mesh client, based on painlessMesh. Uses bridge as connection the MQTT",
+	"repository": {
+		"type": "git",
+		"url":"https://github.com/aykborstelmann/esp-mqtt-mesh-client",
+	},
+	"authors": [
+		{
+			"name": "Ayk Borstelmann",
+			"email": "borstelmann.ayk@gmail.com",
+			"maintainer": "true"
+		}
+	],
+	"dependencies": {
+		"name": "painlessMesh",
+		"framework": "arduino"
+	},
+	"framework": "arduino",
+	"version": "0.1.0",
+	"platforms": "espressif8266, espressif32"
+}
